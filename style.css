@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url('img/ssss.jpg');
+    background-size: 100%;
+    background-color: #153959;
+    height: 100%;
+    background-position: center;
+}
+li,a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400 ;
+    font-size: 16px;
+    color: wheat;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10px;
+    flex-shrink: 1;
+
+}
+.logo{
+    cursor: pointer;
+    width: 5%;
+    margin-right: 80px;
+}
+
+.nav_links{
+    list-style-type: none;
+}
+.nav_links li{
+    display: inline;
+    padding: 0 20px;
+}
+.nav_links li a{
+    text-transform: capitalize;
+    /* transition: all 0.3s ease 0s; */
+    /* padding-bottom:5 px ; */
+}
+
+.nav_links li a:hover{
+    border-bottom: 2px solid #ffff;
+}
+/* ---------------------------------------------------main section--------------------------------------------------- */    
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0.5rem 0;
+    align-items: top;
+    align-content: space-between;
+    
+}
+.main_left,.main_right{
+    /* height: 80vh; */
+    display: flex;
+    justify-content: top;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.main_left{
+    width: 30%;
+
+    margin-left: 3rem;
+}
+.main_left h1{
+    width: 80 rem;
+    font-size: 1.5rem;
+    line-height:1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin: 5rem 0  2rem  0;
+    color: #f9e5b0;
+}
+.main_left p{
+    width: 340px;
+    color: white;
+    margin-bottom: 2rem;
+}
+.main_left a{
+    color: #153959;
+    background-color: wheat;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 5px 15px ;
+    text-align: center;
+}
+.main_right{
+    color: #fff;
+    width: 100%;
+    height: 100;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* position: relative; */
+    
+}
+.main_right p{
+    margin-top: 100px;
+    margin-right: 100px;
+    text-align: end;
+    bottom: 19px;
+    right: 100px;
+    position: absolute;
+}
+.main_right img{
+    width: 100%;
+}
